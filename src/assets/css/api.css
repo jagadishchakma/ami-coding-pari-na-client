@@ -1,0 +1,54 @@
+.api {
+  margin: 100px auto;
+  max-width: 700px;
+}
+
+.api-link {
+  padding: 5px;
+}
+.api-text {
+  background-color: #fff;
+  color: black;
+}
+.fa-clipboard {
+  cursor: pointer;
+}
+
+.data-cotainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  overflow: hidden;
+}
+.input-field {
+  width: 100%;
+}
+.input-control {
+  width: 100%;
+  border: none;
+}
+.input-control:focus {
+  outline: none;
+}
+.input-data {
+  display: flex;
+}
+.data-list {
+  background: rgb(44, 43, 43);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 2px;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.data-list-close {
+  padding-left: 2px;
+}
+.data-list:hover {
+  background: chocolate;
+}
